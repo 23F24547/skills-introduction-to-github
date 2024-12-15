@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class dot22
+{
+  public static void main(String arg[])
+{
+  Scanner sc=new Scanner(String.in);
+  int A,B,C;
+  System.out.println("pleas enter any three integer number");
+  A= sc.nextInt();
+  B= sc.nextInt();
+  C= sc.nextInt();
+
+  if(A>B && A>C)
+  {
+    System.out.println("the enterd number"+A+"is largest");
+  }
+
+    else if (B>A && B>C)
+    {
+    System.out.println("the enterd number"+B+"is largest");
+    }
+
+    else (C>A && C>B)
+    {
+    System.out.println("the enterd number"+C+"is largest");
+    }
+     
+    
+}
+}
